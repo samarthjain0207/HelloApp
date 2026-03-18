@@ -2,10 +2,10 @@ public class HelloApp
 {
     public static void main (String [] args)
     {
-        String name = "World";
+        String name="World";
         if(args.length>0)
         {
-            name = args[0];
+            name=String.join(", ", args);
         }
         System.out.println("Hello "+name+"!");
     }
